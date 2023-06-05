@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.navigation{
+    display: flex;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.navigation ul{
+    display: flex;
+}
+.logo{
+    margin: 8px -80px 51px 28px;
+    font-size: 33px;
+}
+li{
+
+    list-style: none;
+    padding: 20px;
+    margin: 45px 37px -3px -48px;
+    font-size: 14px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li :hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.type{
+    width: 450px;
+    height:36px;
+    text-align:center;
+    font-weight: bold;
+    background-color: #cfd3dc;
+    font-family: 'Roboto Slab', serif;
+}
+.button{
+    height:38px;
+    font-weight: bold;
+}
+.search button img{
+    width: 46px;
+    height: 37px;
+}
+.log-sign{
+    display: flex;
+    margin: 57px 0px 0px 86px;
+}
+.log-sign button{
+    width: 74px;
+    height: 46px;
+    background-color: #cfd3dc;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.icon img{
+    height: 100px;
+    width: 115px;
+}
+.search{
+    display: flex;
+    margin: 17px 133px;
+    
+}
+.sub-con1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+.sub-con1 img{
+    width: 400px;
+
+}
+.para {
+    border: 1px solid black;
+    margin: 66px 137px -23px 155px;
+    text-align: center;
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+.sub-con2{
+    display: flex;
+    width: 100vw;
+    margin-top: 2px;
+    justify-content: center;
+}
+.sub-con2-item{
+    display: flex;
+    flex-direction: column;
+    width: 321px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 43px;
+    line-height: 27px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.sub-con2-img1{
+    width: 250px;
+}
+.sub-con2-img2{
+    width: 170px;
+}
+.sub-con2-img3{
+    width:187px;
+}
+.sub-con2-item h3{
+    margin: 25px 0px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    border: 1px solid red;
+    margin-top: 30px;
+}
+.footer p{
+    margin: 11px;
+}
+
+
